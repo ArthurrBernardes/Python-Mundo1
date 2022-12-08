@@ -5,3 +5,8 @@ pygame.init()
 pygame.mixer.music.load('musica.mp3')
 pygame.mixer.music.play()
 pygame.event.wait()
+while True:
+    print("Digite Stop para parar a musica:")
+    a = input("")
+    if a == "stop":
+        break
